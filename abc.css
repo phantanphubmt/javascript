@@ -121,6 +121,7 @@ header input:checked ~ .menu-item{
 /* Start Component Banner */
 .banner {
     position: relative;
+    margin-bottom: 20px;
 }
 .banner .img-banner {
     width: 100%;
@@ -170,4 +171,138 @@ header input:checked ~ .menu-item{
     font-size: 20px;
     cursor: pointer;
 }
-/* phan2 */
+/* ---------phan2------- */
+.container {
+    width: 100%;
+    padding: 0 50px;
+}
+.list-item {
+    display:flex;
+    flex-wrap:wrap;
+}
+.list-item .item {
+    width: 50%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.list-item .item .img {
+    width: 33.333%;
+}
+.list-item .item .img img {
+    max-width: 100%;
+}
+.list-item .item .content-right {
+    width: 66.666%;
+}
+.content-right{
+    padding-left: 20px;
+}
+.name{
+    padding-bottom: 20px;
+
+}
+.price{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content{
+    padding-bottom: 20px;
+}
+.img-from{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+/* -----phan3----- */
+.cream{
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+}
+.left{
+    width: 50%;;
+}
+.content-left{
+    padding: 90px 0 70px 70px;
+}
+.img-right{
+    width: 50%;
+}
+.title{
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: white;
+}
+.text-content{
+    padding-bottom: 30px;
+}
+.text-content-image{
+    padding-bottom: 30px;
+}
+.btn-green {
+    background: white;
+    color: black;
+}
+.text-content-image a{
+    text-decoration: underline;
+    color: blue;
+}
+.title{
+    font-size: 30px;
+}
+.img-right img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+/* -------phan4------- */
+.freshfood{
+    width: auto;
+    background-color: white;
+    display: flex;
+}
+.left-food{
+    width: 50%;
+}
+.content-freshfood{
+    justify-content: space-between;
+    padding: 90px 0px 70px 70px;
+    flex-wrap: wrap;
+}
+.freshfood-left{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.sale-off{
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 50%;
+    line-height: 150px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.left-content-title{
+    margin-bottom: 20px;
+    font-size:20px;
+}
+.left-content-text{
+    margin-bottom: 20px;
+    color: slategrey;
+}
+.footter{
+    background-color: slategray;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.sampletext{
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.end{
+   padding-bottom: 20px;
+}

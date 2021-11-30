@@ -5,51 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        @media screen and (min-width: 768px) {
-            .container {
-                width: 700px;
-                padding: 0 20px;
-            }
-        }
-        @media screen and (min-width: 992px) {
-            .container {
-                width: 900px;
-                padding: 0 20px;
-            }
-        }
-        @media screen and (min-width: 1280px) {
-            .container {
-                width: 1160px;
-                padding: 0 20px;
-            }
-        }
-
-        .container {
-            width: 100%;
-            padding: 0 20px;
-        }
-
-        .list-item {
-            display:flex;
-            flex-wrap:wrap;
-            
-        }
-        .list-item .item {
-            width: 50%;
-            display: flex;
-        }
-        .list-item .item .img {
-            width: 33.333%;
-        }
-        .list-item .item .img img {
-            max-width: 100%;
-        }
-        .list-item .item .content-right {
-            width: 66.666%;
-        }
-    </style>
+    <link rel="stylesheet" href="abc.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -66,9 +23,20 @@
                 <li><a href="">Conact</a></li>
             </div>
         </div>
-
     </header>
-    <?php include "banner.php"; ?>
+
+    <div class="banner">
+        <div class="img-banner">
+            <img src="pho.jpg" />
+        </div>    
+        <div class="header-text">
+            <h1>Natura Food</h1>
+            <div class="texta">
+                <button class="button btn-green" href="">READ MORE</button>
+                <button class="button btn-white">VIEW ALL RECIPES</button>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="list-item">
@@ -88,7 +56,7 @@
                 </div>
                 <div class="content-right">
                     <div class="name">Name</div>
-                    <div class="price">12.000</div>
+                    <div class="price">10.000</div>
                     <div class="content">Cillum est nisi commodo ut voluptate aliquip esse irure laborum fugiat esse.</div>
                 </div>
             </div>
@@ -98,7 +66,7 @@
                 </div>
                 <div class="content-right">
                     <div class="name">Name</div>
-                    <div class="price">12.000</div>
+                    <div class="price">14.000</div>
                     <div class="content">Cillum est nisi commodo ut voluptate aliquip esse irure laborum fugiat esse.</div>
                 </div>
             </div>
@@ -108,13 +76,61 @@
                 </div>
                 <div class="content-right">
                     <div class="name">Name</div>
-                    <div class="price">12.000</div>
+                    <div class="price">18.000</div>
                     <div class="content">Cillum est nisi commodo ut voluptate aliquip esse irure laborum fugiat esse.</div>
                 </div>
             </div>
         </div>
-
         <div class="img-from">images from</div>
     </div>
+
+    <div class="cream">
+        <div class="left">
+            <div class="content-left">
+            <div class="title"><h1>Our Ice Cream</h1></div>
+            <div class="text-content">Cillum est nisi commodo ut voluptate aliquip esse irure laborum fugiat esse.</div>
+            <div class="text-content-image">Image from <a href="">Freepik</a></div>
+            <div class="texta">
+                <button class="button btn-green" href="#">READ MORE</button>
+            </div>
+            </div>
+        </div>
+        <div class="img-right">
+            <img src="chup-san-pham.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="freshfood">
+        <div class="left-food">
+            <div class="content-freshfood">
+            <div class="freshfood-left">100% Fresh Food</div>
+            <div class="sale-off">30% OFF</div>
+            <div class="left-content-title">HEALTHY FOOD</div>
+            <div class="left-content-text">Cillum est nisi commodo ut voluptate aliquip esse irure laborum fugiat esse.</div>
+            <div class="text-content-image">Image from <a href="">Freepik</a></div>
+            </div>
+        </div>
+        <div class="img-right">
+            <img src="pho.jpg" alt="">
+        </div>
+    </div>
+    
+    <div class="footter">
+        <div class="sampletext">Sample text.Click to select the text box. Click again or double <br>
+        click to start editing the text</div>
+        <div class="end"><a href="">Webside Templates </a>created with <a href="">Website Buider Software.</a></div>
+    </div>
+
+
+    <script>
+        // $(document).ready(function() {
+            
+        // });
+
+        function a () {
+            
+        }
+
+    </script>
 </body>
 </html>
